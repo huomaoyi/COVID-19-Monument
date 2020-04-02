@@ -26,11 +26,11 @@ COVID-19肆掠以来，国内国外疫情日益严重，在和病毒搏斗的过
 
 - 由于我本人的微信小程序的账号是个人的，而COVID19纪念碑小程序上线还需要有企业资质和祭祀服务资质，所以暂时还无法上线，希望有好心人能帮忙解决，本项目为开源项目，无偿为感兴趣者fork使用
   
-  ![祭扫资质][./miniprogram/images/zizhi.png]
+  ![祭扫资质](./miniprogram/images/zizhi.png)
 
 ## 欢迎开发者和感兴趣的朋友加入，一同建设！乱发广告者勿入！
-  ![微信群][./miniprogram/images/weixin.jpg]
+  ![微信群](./miniprogram/images/weixin.jpg)
 
 ## 当前界面
 
-![COVID19纪念碑][./miniprogram/images/shot.jpeg]
+![COVID19纪念碑](./miniprogram/images/shot.jpeg)
