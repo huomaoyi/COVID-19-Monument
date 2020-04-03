@@ -16,6 +16,9 @@ Page({
     peopleData: [],
     title:"",
     copyright: "",
+    show: false,
+    coverTitle: "",
+    coverContent: "",
 
     currentName: "",
     currentBirthDate: "",
@@ -215,7 +218,10 @@ Page({
 
         that.setData({
           title: title,
-          copyright: res.result[0].copyright
+          copyright: res.result[0].copyright,
+          show: res.result[0].show,
+          coverTitle: res.result[0].coverTitle,
+          coverContent: res.result[0].coverContent,
         })
       },
       fail: err => {
@@ -615,6 +621,10 @@ Page({
 
   onShareAppMessage: function (options) {
     var that = this;
+
+    if (!that.data.show) {
+      return
+    }
 
     var shareObj = {
       title: "为逝去者" + that.data.person.name + "送上您的怀恋",

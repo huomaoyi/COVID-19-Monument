@@ -18,6 +18,26 @@
   margin-bottom: 8rpx;
 }
 
+.cover-container {
+  width: 700rpx;
+  height: 800rpx;
+  background-color: #f5f5f5; 
+  margin: auto;
+}
+
+.cover-title {
+  width: 300rpx;
+  text-align: center;
+  margin: auto;
+  margin-top: 100rpx;
+}
+
+.cover-content {
+  width: 600rpx;
+  margin: auto;
+  margin-top: 20rpx;
+}
+
 .container {
   width: 700rpx;
   height: 1000rpx;
